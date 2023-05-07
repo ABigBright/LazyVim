@@ -1,3 +1,5 @@
+if true then return {} end
+
 -- This file is automatically loaded by plugins.init
 
 local function augroup(name)

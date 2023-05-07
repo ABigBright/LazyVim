@@ -1,3 +1,4 @@
+if true then return {} end
 -- This file is automatically loaded by lazyvim.plugins.config
 
 local Util = require("lazyvim.util")
