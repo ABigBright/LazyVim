@@ -1,7 +1,8 @@
-if true then return {} end
 -- This file is automatically loaded by plugins.config
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
+
+if true then return {} end
 
 local opt = vim.opt
 
