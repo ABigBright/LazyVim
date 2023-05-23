@@ -73,6 +73,8 @@ local defaults = {
       Unit = " ",
       Value = " ",
       Variable = " ",
+      archive = " ",
+      func = " ",
     },
   },
 }
