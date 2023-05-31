@@ -15,7 +15,7 @@ function M.get()
       { "<leader>ed", vim.diagnostic.open_float, desc = "line diagnostics" },
       { "<leader>el", "<cmd>LspInfo<cr>", desc = "lsp info" },
       { "<leader>jc", "<cmd>Telescope lsp_definitions<cr>", desc = "goto definition", has = "definition" },
-      { "<leader>jh", "<cmd>Telescope lsp_references<cr>", desc = "goto references" },
+      { "<leader>jh", vim.lsp.buf.references, desc = "goto references" },
       { "<leader>jD", vim.lsp.buf.declaration, desc = "goto declaration" },
       { "<leader>jI", "<cmd>Telescope lsp_implementations<cr>", desc = "goto implementation" },
       { "<leader>jg", "<cmd>Telescope lsp_type_definitions<cr>", desc = "goto T[y]pe definition" },
