@@ -9,6 +9,7 @@ local defaults = {
   ---@type string|fun()
   colorscheme = function()
     require("tokyonight").load()
+    require("monokai").setup()
   end,
   -- load the default settings
   defaults = {

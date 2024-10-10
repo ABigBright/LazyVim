@@ -13,4 +13,10 @@ return {
     lazy = true,
     name = "catppuccin",
   },
+
+  -- molokai
+  {
+    "tanvirtin/monokai.nvim",
+    lazy = true,
+  },
 }
