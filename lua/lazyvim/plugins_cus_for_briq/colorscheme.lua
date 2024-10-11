@@ -14,9 +14,9 @@ return {
     name = "catppuccin",
   },
 
-  -- molokai
+  -- monokai-pro
   {
-    "tanvirtin/monokai.nvim",
+    "loctvl842/monokai-pro.nvim",
     lazy = true,
-  },
+  }
 }
